@@ -11,7 +11,7 @@ public class ConfigParser {
     static JSONObject json;
     public ConfigParser() throws IOException, ParseException {
         JSONParser parser = new JSONParser();
-        BufferedReader br = new BufferedReader(new FileReader(new File("C:\\Users\\jasie\\Desktop\\config.json")));
+        BufferedReader br = new BufferedReader(new FileReader(new File("")));
         StringBuffer sr = new StringBuffer();
         String line;
         while((line = br.readLine()) != null){
